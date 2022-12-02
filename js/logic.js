@@ -9,7 +9,7 @@ const latin = "ABCDEFGHIJKLMOPQRSTUVWXYZ"
 const nums = "0123456789";
 const currency = "$¥₡₱£€¢﷼¥₩₮₦₨₽₺₴﷼"
 
-const alphabet = currency + nums;
+const alphabet = currency + nums + katakana;
 
 const fontSize = 16;
 const columns =(canvas.width/fontSize)* 2;
